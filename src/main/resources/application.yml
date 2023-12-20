@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: ms-currency-rates
+
+#  cache:
+#    cache-names: customers, users, roles
+#    caffeine:
+#      spec: maximumSize=500, expireAfterAccess=60s
+
+api:
+  fixer:
+    url: ${CURRECNY_API}
+    apiKey: ${API_KEY}
+    base: ${BASE_CURRENCY}
+server:
+  port: ${SERVER_PORT}
