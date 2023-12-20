@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: ms-currency-rates
+
+#  cache:
+#    cache-names: customers, users, roles
+#    caffeine:
+#      spec: maximumSize=500, expireAfterAccess=60s
+
+api:
+  fixer:
+    url: http://data.fixer.io/api/
+    apiKey: 4ac5795c98db6f9adbc171af620be388
+    base: EUR
+server:
+  port: 8044
